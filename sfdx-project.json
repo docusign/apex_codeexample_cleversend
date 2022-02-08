@@ -1,0 +1,12 @@
+{
+  "packageDirectories": [
+    {
+      "path": "force-app",
+      "default": true
+    }
+  ],
+  "name": "Apex-CleverSend",
+  "namespace": "",
+  "sfdcLoginUrl": "https://xxx.my.salesforce.com",
+  "sourceApiVersion": "52.0"
+}

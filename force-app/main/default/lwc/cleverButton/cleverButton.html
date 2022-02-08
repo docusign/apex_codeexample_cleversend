@@ -1,0 +1,38 @@
+<template>
+    <div>
+        <lightning-card title="Clever Send" icon-name="utility:ribbon">
+            <!-- <lightning-layout vertical-align="center">
+                <lightning-layout-item padding="around-small">
+                    Current Record Id: {recordId}
+                </lightning-layout-item>
+            </lightning-layout> -->
+            <lightning-layout vertical-align="center">
+                <lightning-layout-item padding="around-small">
+                    <p>Selected template ID: {value}</p>
+                    <lightning-combobox name="progress" value={value} placeholder="Select Progress" options={options}
+                        onchange={handleChange}></lightning-combobox>
+                </lightning-layout-item>
+            </lightning-layout>
+            <lightning-layout vertical-align="center">
+                <lightning-layout-item padding="around-small">
+                    <div>
+                        <template if:true={isLoading}>
+                            <lightning-spinner alternative-text="Loading..."></lightning-spinner>
+                        </template>
+                        <template if:true={error}>
+                            {errorMessage}
+                        </template>
+                        <template if:true={sent}>
+                            <lightning-layout-item padding="around-small">
+                                <p>{sentMessage}</p>
+                            </lightning-layout-item>
+                        </template>
+                    </div>
+                    <lightning-button padding="around-small" label="Clever Send" title="Clever Envelope"
+                        onclick={handleClick}>
+                    </lightning-button>
+                </lightning-layout-item>
+            </lightning-layout>
+        </lightning-card>
+    </div>
+</template>
