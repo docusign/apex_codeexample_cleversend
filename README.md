@@ -4,8 +4,9 @@ Clever Send is a one-click wonder and saves the sender effort and time skipping 
 ​
 Clever Send goes one step further to reduce a lot of time and human error by automatically adding personal access codes to the envelopes on the fly.
 ​
-* [Read the Clever Send blog post](https://www.docusign.com/blog/developers/beyond-esignature-salesforce-part-2-clever-send)
+* **[Read the Clever Send blog post](https://www.docusign.com/blog/developers/beyond-esignature-salesforce-part-2-clever-send)**
 * Watch the video:  
+    
     [![](https://com.edit.docusign.com/sites/d8/files/social_media_images/2022-02/Blog_ApexCleverSend_social.png)](https://studio.brightcove.com/products/videocloud/media/videos/6296161929001)
 ​
 ## Additional resources
